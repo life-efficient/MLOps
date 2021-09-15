@@ -1,5 +1,4 @@
 from sklearn import datasets, linear_model
-import mlflow
 
 data = datasets.load_boston()
 X = data["data"]
